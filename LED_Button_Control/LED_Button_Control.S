@@ -12,8 +12,8 @@
 main:
     @buttons
     mov r0, #BTN_ON_PIN
-    bl link_gpio_init
-    mov r0, #BTN_ON_PIN
+    bl link_gpio_init       @initalisieren
+    mov r0, #BTN_ON_PIN     @Variable oben definiert
     mov r1, #GPIO_IN
     bl link_gpio_set_dir
     mov r0, #BTN_ON_PIN
@@ -82,3 +82,4 @@ Make_off:
     bl link_gpio_put
 
     b loop
+            @end
