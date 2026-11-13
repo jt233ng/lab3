@@ -51,6 +51,15 @@ loop:
     bl link_gpio_get
     mov r5, r0              @ r5 = button2 state
 
+    @correction
+    
+    cmp r4, #0
+    bne Check_buttons
+
+    cmp r5, #0
+    beq loop
+
+Check_buttons:    
     cmp r4, #1
     bne Make_ON          @ make on  
 
