@@ -53,13 +53,17 @@ loop:
     MOV R1, #1
     AND R4, R1 @Bitmaske mit flag set
 
-    CMP R4, #1
-    BNE Make_ON @Wenn nicht gleich dann spring
-
     @ Button GP3
     LSR R5, R0, #3
     MOV R1, #1
     AND R5, R1
+
+    @ Corection
+    CMP R4, R5 
+    BEQ loop
+
+    CMP R4, #1
+    BNE Make_ON @Wenn nicht gleich dann spring
 
     CMP R5, #1
     BNE Make_OFF

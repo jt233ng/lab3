@@ -1521,9 +1521,9 @@ Discarded input sections
                 0x00000000       0x80 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x00000000       0x80 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x00000000        0x0 /tmp/ccT23ZKJ.o
- .data          0x00000000        0x0 /tmp/ccT23ZKJ.o
- .bss           0x00000000        0x0 /tmp/ccT23ZKJ.o
+ .text          0x00000000        0x0 /tmp/cctRpbFy.o
+ .data          0x00000000        0x0 /tmp/cctRpbFy.o
+ .bss           0x00000000        0x0 /tmp/cctRpbFy.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1787,7 +1787,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccT23ZKJ.o
+ .boot2         0x10000000      0x100 /tmp/cctRpbFy.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1853,192 +1853,191 @@ LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x100002c0                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002c4       0x98 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crtbegin.o
- .text          0x1000035c       0x9c CMakeFiles/LED_Button_Register.dir/LED_Button_Register.S.obj
+ .text          0x1000035c       0xa0 CMakeFiles/LED_Button_Register.dir/LED_Button_Register.S.obj
                 0x1000035c                main
  .text.link_gpio_set_dir
-                0x100003f8       0x14 CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
-                0x100003f8                link_gpio_set_dir
+                0x100003fc       0x14 CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
+                0x100003fc                link_gpio_set_dir
  .text.link_gpio_init
-                0x1000040c        0x8 CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
-                0x1000040c                link_gpio_init
+                0x10000410        0x8 CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
+                0x10000410                link_gpio_init
  .text.link_gpio_pull_up
-                0x10000414        0xc CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
-                0x10000414                link_gpio_pull_up
+                0x10000418        0xc CMakeFiles/LED_Button_Register.dir/sdklink.c.obj
+                0x10000418                link_gpio_pull_up
  .text.gpio_set_pulls
-                0x10000420       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000420                gpio_set_pulls
+                0x10000424       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000424                gpio_set_pulls
  .text.gpio_init
-                0x10000450       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000450                gpio_init
+                0x10000454       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000454                gpio_init
  .text.hw_claim_or_assert
-                0x1000048c       0x44 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000048c                hw_claim_or_assert
+                0x10000490       0x44 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000490                hw_claim_or_assert
  .text.running_on_fpga
-                0x100004d0       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004d0                running_on_fpga
+                0x100004d4       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100004d4                running_on_fpga
  .text.spin_locks_reset
-                0x100004e0       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100004e0                spin_locks_reset
+                0x100004e4       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004e4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100004fc       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100004fc                next_striped_spin_lock_num
+                0x10000500       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000500                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x10000514       0x24 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000514                irq_set_enabled
+                0x10000518       0x24 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000518                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x10000538       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000538                irq_get_vtable_handler
+                0x1000053c       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000053c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000548       0x54 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000548                irq_set_exclusive_handler
+                0x1000054c       0x54 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000054c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x1000059c      0x1b4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000059c                irq_remove_handler
+                0x100005a0      0x1b4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005a0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000750       0xb4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000750                irq_add_tail_to_free_list
+                0x10000754       0xb4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000754                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000804       0x24 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000804                irq_init_priorities
+                0x10000808       0x24 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000808                irq_init_priorities
  .text.lock_init
-                0x10000828       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000828                lock_init
+                0x1000082c       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x1000082c                lock_init
  .text.timer_pool_entry_comparator
-                0x10000838       0x34 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000838                timer_pool_entry_comparator
+                0x1000083c       0x34 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000083c                timer_pool_entry_comparator
  .text.add_alarm_under_lock
-                0x1000086c      0x114 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000870      0x114 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000980      0x1d0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000984      0x1d0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000b50       0x64 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000b50                alarm_pool_init_default
+                0x10000b54       0x64 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b54                alarm_pool_init_default
  .text.hardware_alarm_irq_handler
-                0x10000bb4       0xb0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000bb8       0xb0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10000c64       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000c64                hardware_alarm_claim
+                0x10000c68       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000c68                hardware_alarm_claim
  .text.time_us_64
-                0x10000c7c       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000c7c                time_us_64
+                0x10000c80       0x18 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000c80                time_us_64
  .text.hardware_alarm_set_callback
-                0x10000c94       0x8c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000c94                hardware_alarm_set_callback
+                0x10000c98       0x8c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000c98                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10000d20       0xe8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000d20                hardware_alarm_set_target
+                0x10000d24       0xe8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000d24                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10000e08       0x40 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000e08                hardware_alarm_cancel
+                0x10000e0c       0x40 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000e0c                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10000e48       0x5c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000e4c       0x5c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10000ea4      0x1b8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10000ea4                ph_post_alloc_init
+                0x10000ea8      0x1b8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10000ea8                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x1000105c       0x4c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000105c                ph_merge_two_pass
+                0x10001060       0x4c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001060                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100010a8      0x1b8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100010ac      0x1b8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001260      0x1bc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001260                ph_remove_head
+                0x10001264      0x1bc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001264                ph_remove_head
  .text.ph_remove_and_free_node
-                0x1000141c       0x7c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000141c                ph_remove_and_free_node
+                0x10001420       0x7c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001420                ph_remove_and_free_node
  .text.mutex_init
-                0x10001498       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001498                mutex_init
+                0x1000149c       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1000149c                mutex_init
  .text.recursive_mutex_init
-                0x100014b4       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100014b4                recursive_mutex_init
+                0x100014b8       0x1c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100014b8                recursive_mutex_init
  .text.runtime_init
-                0x100014d0       0xf4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100014d0                runtime_init
- .text.exit     0x100015c4        0x4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100015c4                exit
- .text.panic    0x100015c8       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100015c8                panic
+                0x100014d4       0xf4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100014d4                runtime_init
+ .text.exit     0x100015c8        0x4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100015c8                exit
+ .text.panic    0x100015cc       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100015cc                panic
  .text.hard_assertion_failure
-                0x100015f8        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100015f8                hard_assertion_failure
+                0x100015fc        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100015fc                hard_assertion_failure
  .text.clocks_init
-                0x10001604      0x2c0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001604                clocks_init
+                0x10001608      0x2c0 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001608                clocks_init
  .text.pll_init
-                0x100018c4       0xa8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x100018c4                pll_init
+                0x100018c8       0xa8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100018c8                pll_init
  .text.watchdog_start_tick
-                0x1000196c       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000196c                watchdog_start_tick
+                0x10001970       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001970                watchdog_start_tick
  .text.xosc_init
-                0x1000197c       0x28 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x1000197c                xosc_init
+                0x10001980       0x28 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001980                xosc_init
  .text._out_char
-                0x100019a4       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100019a8       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x100019b4       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100019b4                weak_raw_vprintf
- .text          0x100019e4       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100019b8       0x30 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100019b8                weak_raw_vprintf
+ .text          0x100019e8       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100019f4       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100019f4                rom_func_lookup
+                0x100019f8       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100019f8                rom_func_lookup
  .text.rom_data_lookup
-                0x10001a04       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001a04                rom_data_lookup
+                0x10001a08       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001a08                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001a14       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001a14                rom_funcs_lookup
+                0x10001a18       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001a18                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x10001a50       0x4c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001a50                __wrap___aeabi_uidiv
-                0x10001a50                __wrap___aeabi_uidivmod
-                0x10001a50                div_u32u32
-                0x10001a50                divmod_u32u32
-                0x10001a58                divmod_u32u32_unsafe
-                0x10001a80                divmod_u32u32_savestate
+                0x10001a54       0x4c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001a54                __wrap___aeabi_uidiv
+                0x10001a54                __wrap___aeabi_uidivmod
+                0x10001a54                div_u32u32
+                0x10001a54                divmod_u32u32
+                0x10001a5c                divmod_u32u32_unsafe
+                0x10001a84                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x10001a9c       0xbc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001a9c                __aeabi_double_init
+                0x10001aa0       0xbc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001aa0                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001b58       0x2c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10001b58                double_table_shim_on_use_helper
+                0x10001b5c       0x2c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10001b5c                double_table_shim_on_use_helper
  .text.__aeabi_float_init
-                0x10001b84       0x68 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10001b84                __aeabi_float_init
+                0x10001b88       0x68 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001b88                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10001bec       0x2c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10001bec                float_table_shim_on_use_helper
- .text          0x10001c18       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001c18                __aeabi_mem_init
- .text.memset   0x10001c28        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001c28                __wrap_memset
- .text.memcpy   0x10001c34        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10001c34                __wrap___aeabi_memcpy
-                0x10001c34                __wrap_memcpy
+                0x10001bf0       0x2c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10001bf0                float_table_shim_on_use_helper
+ .text          0x10001c1c       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001c1c                __aeabi_mem_init
+ .text.memset   0x10001c2c        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001c2c                __wrap_memset
+ .text.memcpy   0x10001c38        0xc CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001c38                __wrap___aeabi_memcpy
+                0x10001c38                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10001c40       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001c44       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10001c50       0xac CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001c54       0xac CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x10001cfc       0xf8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001d00       0xf8 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10001df4       0xa4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001df4                __wrap_putchar
+                0x10001df8       0xa4 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001df8                __wrap_putchar
  .text.__wrap_puts
-                0x10001e98       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001e98                __wrap_puts
+                0x10001e9c       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001e9c                __wrap_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x10001ed4       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10001ed8       0x10 CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.flash_get_unique_id
-                0x10001ee4       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10001ee4                flash_get_unique_id
- .text          0x10001f20       0x68 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x10001f20                strlen
+                0x10001ee8       0x3c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10001ee8                flash_get_unique_id
+ .text          0x10001f24       0x68 /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x10001f24                strlen
  *(.fini)
- .fini          0x10001f88        0x4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crti.o
-                0x10001f88                _fini
- *fill*         0x10001f8c        0x4 
+ .fini          0x10001f8c        0x4 /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/crti.o
+                0x10001f8c                _fini
  .fini.__stub   0x10001f90       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
@@ -2392,7 +2391,7 @@ LOAD CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/lib/tinyusb/s
 LOAD CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccT23ZKJ.o
+LOAD /tmp/cctRpbFy.o
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2484,7 +2483,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000592       0x2c CMakeFiles/LED_Button_Register.dir/home/student/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x000005be       0x22 /tmp/ccT23ZKJ.o
+                0x000005be       0x22 /tmp/cctRpbFy.o
  .ARM.attributes
                 0x000005e0       0x1e /usr/lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
